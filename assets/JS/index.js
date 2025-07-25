@@ -1,3 +1,5 @@
+// Змінні
+
 // 1)
 
 /*const a = Number(prompt('введіть 1 множник:'));
@@ -35,7 +37,7 @@ console.log(str2);*/
 
 // 5)
 
-let num = 1;
+/*let num = 1;
 console.log(num);
 num = num +=11;
 console.log(num);
@@ -48,7 +50,35 @@ console.log(num);
 num = num +=1;
 console.log(num);
 num = num -=1;
-console.log(num);
+console.log(num);*/
+
+// Введення/виведення
+
+// 1)
+
+/*const a = Number(prompt ('Введіть число:'));
+const pow = Math.pow(a,2);
+console.log('Число', a ,'в 2 степені дорівнює:', pow);*/
+
+// 2)
+
+/*const b = Number(prompt ('Введіть 1 число:'));
+const c = Number(prompt ('Введіть 2 число:'));
+const av = (b + c) / 2;
+console.log('Середнє арифметичне чисел', b ,'і', c, 'дорівнює:', av);*/
+
+// 3)
+
+/*const min = Number(prompt ('Введіть кількість хвилин:'));
+const hrs = min / 60;
+console.log('Кількість годин в', min ,'хвилинах:', hrs);*/
+
+// 4)
+
+const gretting = 'Hello, ';
+const userName = prompt("Введіть Ваше ім'я!");
+alert (gretting + userName);
+
 
 
 
