@@ -23,30 +23,32 @@ console.log(sum);
 
 // 4)
 
-const num1 = Number(11);
+const num1 = 11;
 console.log(num1);
-const bln = Boolean(true);
+const bln = true;
 console.log(bln);
-const str1 = String('java script');
+const str1 = 'java script';
 console.log(str1);
-const str2 = String('100');
+const str2 = '100';
 console.log(str2);
 
 // 5)
 
 let num = 1;
 console.log(num);
-num = num +=11;
+num +=11;
 console.log(num);
-num = num -=11;
+num -=11;
 console.log(num);
-num = num *=11;
+num *=11;
 console.log(num);
-num = num /=11;
+num /=11;
 console.log(num);
-num = num +=1;
+// num +=1;
+num ++;
 console.log(num);
-num = num -=1;
+// num -=1;
+num --
 console.log(num);
 
 // Введення/виведення
@@ -80,14 +82,11 @@ alert (gretting + userName);
 
 const firstName = (prompt("Введіть ім'я коримтувача"));
 const lastName = (prompt("Введіть прізвище користувача")); 
-const Email =  (prompt("Введіть Email"));
+const email =  (prompt("Введіть Email"));
 
-document.writeln ("<h2>" + firstName + " " + lastName + "<h2/>");
-document.writeln ("<p>" + Email + "<p/>");
+document.writeln ("<h2>" + firstName + " " + lastName + "</h2>");
+document.writeln ("<p>" + email + "</p>");
 
-
-
-
-
+/* далі принцип роботи функції documet.writeln мені перестав бути зрозумілий, вміст розмітки в index.html не змінюється, але його відтворює браузер. Самостійно шукати відповідь на це питання не бачу сенсу, адже, як я розумію, пізніше це питання буде розкрито в курсі.*/
 
 
