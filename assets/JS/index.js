@@ -55,7 +55,7 @@ console.log(num);
 
 // 1)
 
-const aa = Number(prompt ('Введіть число:'));
+const aa = prompt ('Введіть число:');
 const pow = Math.pow(aa,2);
 console.log('Число', aa ,'в 2 степені дорівнює:', pow);
 
